@@ -19,6 +19,7 @@
 		80C5C32E1FBF69E1000F7908 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C5C32D1FBF69E1000F7908 /* Constants.swift */; };
 		80C5C3301FBF70B5000F7908 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C5C32F1FBF70B5000F7908 /* LoginVC.swift */; };
 		80C5C3321FBF7274000F7908 /* CreatAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C5C3311FBF7274000F7908 /* CreatAccountVC.swift */; };
+		CDB675561FC05DDE00478047 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB675551FC05DDE00478047 /* StringExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		80C5C32F1FBF70B5000F7908 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		80C5C3311FBF7274000F7908 /* CreatAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatAccountVC.swift; sourceTree = "<group>"; };
 		A21E461EF839182D62C808A2 /* Pods_Smack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Smack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDB675551FC05DDE00478047 /* StringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
 		E5E0C41303EC04F875FDE7EB /* Pods-Smack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smack.release.xcconfig"; path = "Pods/Target Support Files/Pods-Smack/Pods-Smack.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -137,6 +139,7 @@
 			isa = PBXGroup;
 			children = (
 				80C5C32D1FBF69E1000F7908 /* Constants.swift */,
+				CDB675551FC05DDE00478047 /* StringExtensions.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -277,6 +280,7 @@
 				80C5C31B1FBF576E000F7908 /* ChannelVC.swift in Sources */,
 				80C5C3191FBF5761000F7908 /* ChatVC.swift in Sources */,
 				80C5C3301FBF70B5000F7908 /* LoginVC.swift in Sources */,
+				CDB675561FC05DDE00478047 /* StringExtensions.swift in Sources */,
 				80C5C32B1FBF6138000F7908 /* GradientView.swift in Sources */,
 				80C5C3321FBF7274000F7908 /* CreatAccountVC.swift in Sources */,
 				80C5C2FF1FBF4E09000F7908 /* AppDelegate.swift in Sources */,
@@ -421,10 +425,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = TQFKRXCCPA;
+				DEVELOPMENT_TEAM = 2WSCX9DQ82;
 				INFOPLIST_FILE = Smack/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Nick.TracMe;
+				PRODUCT_BUNDLE_IDENTIFIER = Max.TracMe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Smack/Supporting Files/Smack-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -440,10 +444,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = TQFKRXCCPA;
+				DEVELOPMENT_TEAM = 2WSCX9DQ82;
 				INFOPLIST_FILE = Smack/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Nick.TracMe;
+				PRODUCT_BUNDLE_IDENTIFIER = Max.TracMe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Smack/Supporting Files/Smack-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;

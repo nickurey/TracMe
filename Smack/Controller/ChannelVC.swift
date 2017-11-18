@@ -14,11 +14,19 @@ class ChannelVC: UIViewController {
     @IBAction func prepareForUnwind(segue: UIStoryboardSegue){
         
     }
+    @IBOutlet weak var usernameLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         self.revealViewController().rearViewRevealWidth = self.view.frame.size.width - 60
         // Do any additional setup after loading the view.
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        usernameLabel.text = UserDefaults.standard.string(forKey: USERNAME)
+        if(UserDefaults.standard.bool(forKey: IS_USER_LOGGED_IN)){
+            loginBtn.isHidden = true
+        }
     }
     @IBAction func loginBtnPressed(_ sender: Any) {
         performSegue(withIdentifier: TO_LOGIN, sender: nil)

@@ -11,3 +11,8 @@ import Foundation
 let TO_LOGIN = "toLogin"
 let TO_CREATE_ACCOUNT = "toCreateAcount"
 let UNWIND = "unwindToChannel"
+private let HOST = "https://tracme.co/php"
+let REGISTER = HOST + "/register.php"
+let LOGIN = HOST + "/login.php"
+let IS_USER_LOGGED_IN = "isUserLoggedIn"
+let USERNAME = "username"
